@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#00001a;
+}
+
+header{
+    padding: 2rem 5rem;
+    width: 100%;
+   
+}
+header nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+header nav .logo h1{
+   color:  #0000ff;
+}
+header nav .logo span{
+    color: #fff;
+}
+
+header nav .menu{
+    margin: auto;
+}
+header nav .menu ul {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    list-style: none;
+}
+header nav .menu ul li {
+margin-right: 50px;
+}
+
+header nav .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+header nav i {
+    font-size: 20px;
+    color: #fff;
+}
+section {
+    padding: 2rem 5rem;
+}
+section .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .row .col1 h4{
+color: #999966;
+font-size: 22px;
+}
+section .row .col1 h1{
+    color: #fff;
+    font-size: 50px;
+    margin: 20px 0;
+}
+section .row .col1 h3{
+    color: #0000ff;
+    font-size: 30px;
+}
+section .row .col1 p {
+    color: #fff;
+    margin: 20px 0;
+}
+section .row .col1 button {
+    color: #fff;
+    background: #0000ff;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+}
+section .row .col2{
+    padding: 2rem 3rem;
+}
+section .row .col2 img{
+    max-width: 500px;
+    max-height: 500px;
+}
+section .row .col3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section .row .col3 i {
+    color: #0000ff;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+/*responsive start*/
+@media (max-width:800px) {
+    section .row .col1 h1{
+        font-size: 40px; 
+    }
+    section .row .col1 h3{
+        font-size: 25px;
+    }
+    header nav {
+        display: flex;
+        flex-direction: column;
+   
+    }
+
+
+}
+
+@media (max-width:700px) {
+    section .row {
+        display: flex;
+    flex-direction: column;
+    }  
+}
+/*responsive end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
